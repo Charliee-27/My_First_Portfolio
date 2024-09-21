@@ -23,3 +23,38 @@ aside {
     overflow-y: auto; 
     padding: 10px; 
 }
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007BFF; 
+}
+
+.logo {
+    font-size: 24px; 
+    font-weight: bold;
+    margin-right: 15px; 
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
